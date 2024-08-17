@@ -5,21 +5,14 @@
   --color-text: #fff;
   --btn-main-color: #272729;
 }
-#pagination.btn {
-  margin: 05px;
-  padding: 5px10px;
+.container-pagination {
+  display: flex;
+  justify-content: flex-start; /* Align items to the start */
+  width: 90%;
+  scroll-behavior: smooth;
+  padding: 10px; /* Adjust padding to ensure visibility of first item */
+  scrollbar-width: none; /* Hide scrollbar in Firefox */
 }
-
-#pagination.btn-primary {
-  background-color: #09c;
-  border-color: #09c;
-}
-
-#pagination.btn-secondary {
-  background-color: #6c757d;
-  border-color: #6c757d;
-}
-
 body {
   margin: 0;
   padding: 0;
